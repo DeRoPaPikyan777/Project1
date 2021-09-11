@@ -1,0 +1,25 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "5page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dero14526/project2.git"
+  },
+  "author": "Papikyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dero14526/project2/issues"
+  },
+  "homepage": "https://github.com/Dero14526/project2#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "random": "^3.0.6"
+  }
+}

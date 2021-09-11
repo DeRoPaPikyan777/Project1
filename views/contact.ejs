@@ -1,0 +1,22 @@
+<%- include ('./components/header') %>
+
+<main class="container pt-5">
+    <form action="/contact" method="POST" class="pt-5">
+
+        <p><input type="text" placeholder="Name" name="name"></p>
+        <p><input type="email" name="email" placeholder="Email"></p>
+        <p><input type="tetx" name="subject" placeholder="subject"></p>
+        <p>Message <br>
+            <textarea name="message" id="" cols="30" rows="10">
+
+            </textarea>
+        </p>
+        <p><input type="submit" value="Send Message"></p>
+
+    </form>
+
+   
+
+</main>
+
+<%- include ('./components/footer') %>
